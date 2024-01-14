@@ -3,6 +3,7 @@
   padding-block-end: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  list-style: none;
 }
 .container {
   background-color: #fe5a5a;
@@ -60,16 +61,70 @@
   flex-shrink: 0;
   border-radius: 10px;
   background: #fe5a5a;
-    cursor: pointer;
+  cursor: pointer;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
   color: white;
   border: none;
 }
-.button:hover{
-background-color: rgb(4, 220, 4);
+.button:hover {
+  background-color: rgb(4, 220, 4);
 }
-.inputBox{
-    margin-top: 2%;
-    display: flex;
-    gap: 30px;
+.inputBox {
+  margin-top: 2%;
+  display: flex;
+  gap: 30px;
+}
+.taskBox {
+  margin-top: 15%;
+}
+.taskBox ul {
+  margin: 0;
+  padding: 0;
+}
+.task {
+  width: 502px;
+  height: 65px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+.trashBox {
+  background-color: #fe5a5a;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.trashBox:hover {
+  background-color: black;
+}
+.lastBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.clearBtn {
+  width: 128px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 10px;
+background: #FE5A5A;
+color: white;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+border: none;
+cursor: pointer;
+}
+.clearBtn:hover{
+    background-color: black;
 }
