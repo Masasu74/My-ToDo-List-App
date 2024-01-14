@@ -16,8 +16,8 @@
 }
 .box {
   background-color: white;
-  width: 584px;
-  height: 659px;
+  max-width: 584px;
+  max-height: 659px;
   border-radius: 50px;
   padding: 20px 40px;
   display: flex;
